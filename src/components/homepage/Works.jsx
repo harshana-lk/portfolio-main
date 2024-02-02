@@ -66,7 +66,7 @@ export default function Works({ forwardedRef }) {
             link="https://harshu.me"
             img={personal}
             alt="personal portfolio"
-            name="PERSONLA PORTFOLIO"
+            name="PERSONAL PORTFOLIO"
             type="Frontend Development"
             year="2022"
             tools="HTML • CSS • JavaScript"
