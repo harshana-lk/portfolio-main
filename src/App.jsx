@@ -11,9 +11,9 @@ import Services from "./components/homepage/Services";
 import Works from "./components/homepage/Works";
 import Contact from "./components/homepage/Contact";
 import Footer from "./components/ui/Footer";
+import { Helmet } from "react-helmet";
 
 const App = () => {
- 
   gsap.registerPlugin(ScrollTrigger);
 
   const sectionRefs = useRef([]); // Creating a sectionRefs array
@@ -37,17 +37,58 @@ const App = () => {
             duration: 1,
           }),
           toggleActions: "play none none none",
-
         });
-        ScrollTrigger.refresh()
+        ScrollTrigger.refresh();
       });
     });
   }, []);
 
-  
-
   return (
     <div className="bg-secondary-100">
+      <Helmet>
+        <meta charset="UTF-8" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="./src/assets/icons/finalfavicon.svg"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="src/assets/images/profile-main.webp"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="/src/assets/images/greenify1.png"
+        />
+        <link
+          rel="preload"
+          as="image"
+          href="src/assets/images/home service.png"
+        />
+        <link rel="preload" as="image" href="src/assets/images/pig-game.png" />
+        <link rel="preload" as="image" href="src/assets/images/PERSONAL.png" />
+        <link rel="preload" as="image" href="src/assets/images/weatherly.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:url" content="https://harshu.me" />
+        <meta property="og:image" content="src/assets/images/profile.webp" />
+        <meta
+          name="description"
+          content="An independent frontend developer and designer specialized in empowering startups and small businesses. Find your space in the digital landscape."
+        />
+        <meta
+          property="og:title"
+          content="Harshana Jayaweera | Frontend Developer & Web Designer"
+        />
+
+        <meta
+          property="og:description"
+          content="I create elevating digital experiences that inspire and connect with people through design and development"
+        />
+        <meta property="og:type" content="website" />
+        <title>harshu.dev — Frontend Developer & Designer</title>
+      </Helmet>
       <NavBar sectionRefs={sectionRefs.current} />{" "}
       {/* passing sectionRefs props to give access to Navbar, Navbar can then access the props which have access to the array of sectionRef and loop over it */}
       <Hero />
