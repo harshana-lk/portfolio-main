@@ -72,7 +72,10 @@ const App = () => {
         <link rel="preload" as="image" href="src/assets/images/weatherly.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:url" content="https://harshu.me" />
-        <meta property="og:image" content="src/assets/images/profile.webp" />
+        <meta
+          property="og:image"
+          content="https://images.pexels.com/photos/90764/man-studio-portrait-light-90764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
         <meta
           name="description"
           content="An independent frontend developer and designer specialized in empowering startups and small businesses. Find your space in the digital landscape."
