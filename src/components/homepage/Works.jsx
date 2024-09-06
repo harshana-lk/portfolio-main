@@ -24,7 +24,7 @@ export default function Works({ forwardedRef }) {
             name="weatherly Landing Page"
             type="Web Design • Frontend Development"
             year="2023"
-            tools="HTML • CSS • JavaScript • Figma"
+            tools="ReactJS • GSAP • JavaScript • Figma"
           />
         </div>
         {/* Project #2 */}

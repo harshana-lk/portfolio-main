@@ -72,7 +72,7 @@ export default function About() {
               that talk about frontend development, productivity and design on{" "}
               <a
                 className="underline duration-300 ease-in-out hover:text-secondary-700"
-                href="https://www.youtube.com/@harshuonliveyt"
+                href="https://www.youtube.com/@harshu_onlive"
               >
                 YouTube 📸
               </a>

@@ -15,10 +15,10 @@ export default function Services() {
     "HTML",
     "CSS",
     "Figma",
-    "GSAP",
-    "ShadCn",
-    "TailwindCSS",
     "ReactJS",
+    "NextJS",
+    "Flutter",
+    "React Native",
   ];
 
   return (

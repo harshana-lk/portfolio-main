@@ -186,7 +186,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.youtube.com/channel/UCgCh4rHqYOUDqALn0S1VF8g"
+                href="https://www.youtube.com/@harshu_onlive"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
