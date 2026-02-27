@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
