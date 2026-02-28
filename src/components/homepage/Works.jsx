@@ -1,3 +1,5 @@
+import sandakada from "/src/assets/images/sandakada-app.png";
+import synova from "/src/assets/images/synova.png";
 import weatherly from "/src/assets/images/weatherly.png";
 import homeService from "/src/assets/images/home service.png";
 import pigGame from "/src/assets/images/pig-game.png";
@@ -15,6 +17,18 @@ export default function Works({ forwardedRef }) {
     >
       <Heading title="Projects" />
       <div className="mt-10 grid grid-cols-1 gap-16 gap-y-10 md:grid-cols-12">
+        {/* Project Synova */}
+        <div className=" col-span-1 md:col-span-12">
+          <Projects
+            link="https://synova.lk/"
+            img={synova}
+            alt="Synova Global"
+            name="Synova Global"
+            type="Frontend Development"
+            year="2026"
+            tools="React • Vite • Tailwind • Framer Motion"
+          />
+        </div>
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
@@ -28,7 +42,7 @@ export default function Works({ forwardedRef }) {
           />
         </div>
         {/* Project #2 */}
-        <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
+        <div className="col-span-1 pt-0 md:col-span-6 md:pt-16">
           <Projects
             link="#"
             img={homeService}
@@ -39,7 +53,20 @@ export default function Works({ forwardedRef }) {
             tools="React Native • Expo "
           />
         </div>
-        <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">
+        {/* Project Sandakada */}
+        <div className="col-span-1 pt-0 md:col-span-6 md:pt-16">
+          <Projects
+            link="#"
+            img={sandakada}
+            alt="Sandakada Smart App"
+            name="Sandakada Smart App"
+            type="Mobile App Development"
+            year="2025"
+            tools="React Native • EXPO"
+          />
+        </div>
+        {/* Project Pig Game */}
+        <div className="col-span-1 pt-0 md:col-span-12">
           <Projects
             link="https://harshana-lk.github.io/Pig-Game/"
             img={pigGame}
@@ -50,6 +77,7 @@ export default function Works({ forwardedRef }) {
             tools="HTML • CSS • JavaScript"
           />
         </div>
+        {/* Project Greenify */}
         <div className="col-span-1 h-fit pt-0 md:col-span-8 md:pt-20">
           <Projects
             link="https://harshana-lk.github.io/Greenify/"
