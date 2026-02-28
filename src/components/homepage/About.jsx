@@ -60,7 +60,7 @@ export default function About() {
               ref={body}
               className=" translate-y-10 text-body-1 opacity-0 2xl:text-4xl"
             >
-              I am an independent frontend developer, UI/UX designer and creator
+              I am an independent software developer and content creator
               based in Colombo, Sri-Lanka.
               <br></br>
               <br></br>I specialize in crafting elevated, intuitive, and
@@ -72,7 +72,7 @@ export default function About() {
               that talk about frontend development, productivity and design on{" "}
               <a
                 className="underline duration-300 ease-in-out hover:text-secondary-700"
-                href="https://www.youtube.com/@harshu_onlive"
+                href="https://www.youtube.com/@HarshanaOnlive"
               >
                 YouTube 📸
               </a>

@@ -145,7 +145,7 @@ export default function Contact() {
             </h4>
             <div className="flex flex-col space-y-3 text-body-2 2xl:text-3xl">
               <a
-                href="mailto:hello@huyng.xyz"
+                href="mailto:harshuonlive@gmail.com"
                 className="group relative w-fit cursor-pointer"
                 target="_blank"
                 rel="noreferrer"
@@ -174,7 +174,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/in/harshana-lk/"
+                href="https://www.linkedin.com/in/harshanaonlive/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -186,7 +186,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.youtube.com/@harshu_onlive"
+                href="https://www.youtube.com/@HarshanaOnlive"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
